@@ -1,0 +1,37 @@
+<html>
+
+<body bgcolor=#a3cfb4>
+
+    <center>
+
+        <h1>  PREDICTION :  </h1>
+    
+    {%if result =='Iris-versicolor'%}
+    <h1>Iris-versicolor</h1>  
+    <img src='static\verci.jpg'>  
+
+    {%elif result =='Iris-setosa'%}
+    <h1>Iris-setosa</h1>
+    <img src='static\setosa.jpg'>
+
+    {% elif result == 'Iris-virginica'%}
+    <h1>Iris-virginica</h1>
+    <img src='static\verginica.jpg'>
+    
+    
+    {%endif%}
+
+        <br><br>
+    <a href='/'>go back to home page</a>
+
+    </center>
+
+</body>
+
+</html>
+
+
+
+
+
+

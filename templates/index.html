@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>IRIS PREDICTION</title>
+    </head>
+    <body>
+    <div>
+        <h1>Prediction</h1>
+        <form method="POST", action = "{{url_for('predict')}}">
+            <label for="SepalLengthCm">SepalLengthCm</label>
+            <p><input type = "text" name="SepalLengthCm" placeholder="SepalLengthCm"></p>
+            <br><br>
+            <label for="SepalWidthCm">SepalWidthCm</label>
+            <p><input type = "text" name="SepalWidthCm" placeholder="SepalWidthCm"></p>
+            <br><br>
+            <label for="PetalLengthCm">PetalLengthCm</label>
+            <p><input type = "text" name="PetalLengthCm" placeholder="PetalLengthCm"></p>
+            <br><br>
+            <label for="PetalWidthCm">PetalWidthCm</label>
+            <p><input type = "text" name="PetalWidthCm" placeholder="PetalWidthCm"></p>
+            <br><br>
+
+            <input type="submit" value="predict" onclick="predict()">
+        </form>
+    </div>
+    </body>
+</html>
