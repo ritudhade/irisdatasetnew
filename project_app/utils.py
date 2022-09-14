@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 import config
 import sys
-sys.path.append(r"D:\Mock_group_practise\Dataset_Solved\Classification\Iris_Prediction")
+sys.path.append(r"D:\Ritu_Python_and_Data_science\Python\4_datasets_task_pdf\classification_dataset\Iris dataset\Iris_Prediction")
 
 
 class Iris_Data():
